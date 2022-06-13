@@ -1,0 +1,67 @@
+body  { background-color:#99CCCC; 
+	font-family:'raleway'; font-size:16px; color:#883322; font-weight:bold;
+		
+}
+
+header {margin-bottom: 1px; margin-left:1px; margin-right:1px;
+
+}
+
+form {margin:0px;
+
+}
+
+input {border-radius:5px;
+	
+}
+
+fieldset {background-color:#B8AEA9;
+	  font-family:raleway;color:#000000;
+	  
+}
+
+
+#fsForm  {width:590px;
+	 float:center;
+	 clear:both;
+}
+
+#fsResEsq {width:290px;
+	   height:280px;
+	   line-height:120%;
+	   float:left;
+	
+}
+
+#fsResDir {width:260px;
+	   height:280px;
+	   line-height:190%;
+	   float:right;
+	
+}
+
+#fsCartao {font-family:raleway; color:#000000;
+	   background-color:#D5D1CF;
+}
+
+textarea {width:282px;
+	  height:80px;
+	 
+
+}
+
+
+
+select {line-height:100%;
+	border-radius:5px solid;
+		
+}
+
+#Coluna1 {width:90px;
+
+}
+
+#Coluna2 {width:70px;
+	  margin-left:28px;
+
+}

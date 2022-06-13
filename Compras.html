@@ -1,0 +1,100 @@
+<html>
+
+<head>
+	<title>Compras</title>
+
+
+	<link rel="stylesheet" type="text/css" href="Compras.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+	<form method="post" id="fCompras" name="compras" font-weight="bold">
+		<fieldset id="fsForm">
+			<legend>
+				Dados de Identificação
+			</legend>
+			<p>
+				Nome: <input type="text" size="120px" name="tNome" ALIGN="left" id="cNome" />Cpf: <input type="text"
+					size="22px" name="tCpf" id="cCPF" /><br>
+				Telefone:<input type="tel" size="22px" maxlength="8" name="tTelefone" id="cTelefone" />Email:<input
+					type="email" size="120px" name="tEmail" id="cEmail" /><br>
+				Endereço:<input type="text" size="120px" name="tEndereco" id="cEnd" />
+			</p>
+		</fieldset>
+		<fieldset id="fsResEsq">
+			<legend>
+				Produtos
+			</legend>
+			<p>Mesas:<select nome=mesas>
+					<option selected> --- </option><br>
+					<optgroup label="Diretor" id="Coluna1">
+						<option value="Almofab sigma" id="Coluna2"> Almofab Sigma</option><br>
+						<option value="Almofab painel" id="Coluna2"> Alfa Painel S40M136</option><br>
+					</optgroup>
+					<optgroup label="Reunião" id="Coluna2">
+						<option value="almofab corp" id="Coluna2"> Almofab Corp. semi-oval</option>
+					</optgroup>
+				</select>
+				Cadeiras:
+				<select name=cadeiras>
+					<option selected> --- </option><br>
+					<optgroup label="Secretária" id="Coluna1">
+						<option value="veneza" id="Coluna2"> Veneza 658 Fixa Couro</option><br>
+						<option value="turim" id="Coluna2"> Turim Gir. Couro</option><br>
+						<option value="matriz" id="Coluna2"> Matriz Exp. Gir. Tecido</option><br>
+					</optgroup>
+					<optgroup label="Presidente">
+						<option value="firenze"> Firenze 560 Couro</option><br>
+						<option value="ipanema"> Ipanema Prime Couro</option><br>
+					</optgroup>
+				</select>
+
+				Selecionados:<input type=reset value=remover><br>
+
+				<textarea size="480px"></textarea><br>
+				Valor:<input type="text" size="5" />
+			</p>
+		</fieldset>
+		<fieldset id="fsResDir">
+			<legend>
+				Forma de Pagamento
+			</legend>
+			<input type="radio" name="tPagamento" id="cVisa" value="visa" selected /><label for="cVisa">Cartão
+				Visa</label><br>
+			<input type="radio" name="tPagamento" id="cMastercard" value="mastercard" /><label for="cMastercard">Cartão
+				Mastercard</label><br>
+			<input type="radio" name="tPagamento" id="cBoleto" value="boleto" /><label for="cBoleto">Boleto
+				Bancário</label><br>
+			<h1 color="#8833AA">Parcelas sem juros:</h1>
+			<select line-height="100%">
+				<option>1</option><br>
+				<option>2</option><br>
+				<option>3</option><br>
+				<option>4</option><br>
+			</select>
+
+			<fieldset id="fsCartao">
+				<legend>
+					Dados do Cartão
+				</legend>
+				Número:<input type="text" size="22px" name="txt_dados" /><br>
+				Validade:<input type="text" size="2">/<input type="text" size="4">
+			</fieldset>
+			<p ALIGN="right"><input type=submit value=Enviar>
+				<input type=reset value=Limpar>
+			</p>
+		</fieldset>
+
+
+
+	</form>
+
+</body>
+
+
+
+</html>

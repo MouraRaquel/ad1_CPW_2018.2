@@ -1,0 +1,58 @@
+body  { 
+	background-color:#99CCCC; 
+	font-family:'Stoke'; font-size:16px; color:#883322;
+}
+
+header {display:block; margin-bottom: 1px;
+
+}
+
+#imgLogo {position:absolute;
+	  background-position:left-top;
+	  border-bottom:3px solid;
+	  margin-bottom:6px;
+	  padding-bottom:15px;
+}
+	
+section {display:block;
+	 width:77%; 
+	 float:right;
+}
+
+#ender {
+	font-family:'Stoke'; 
+	font-size:15px;
+	
+}
+
+#logo {float:center;
+	text-align:center;
+	font-family:'Stoke'; font-size:15px;
+	line-height:140%;
+	
+}
+
+nav {   display:block;
+	width:0px;
+	float:left;
+	margin-right:10px;
+	font-weight:bold;
+	font-family:'Stoke';
+}
+
+a:link {text-decoration:none;
+	color:#883322;
+}
+a:visited {
+color:#552211;
+}
+
+footer {text-align:center;
+	font-size:18px; 
+	 
+}
+
+ul {    line-height:200%;
+	list-style-type:square;
+
+}

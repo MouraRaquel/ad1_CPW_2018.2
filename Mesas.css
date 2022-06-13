@@ -1,0 +1,70 @@
+body  { background-color:#99CCCC; 
+	font-family:'Stoke'; font-size:16px; color:#883322;
+		
+}
+
+header {display:block; margin-bottom: 1px;
+
+}
+
+#imgLogo {position:absolute;
+	  background-position:left-top;
+	  border-bottom:3px solid;
+	  margin-bottom:6px;
+	  padding-bottom:15px;
+}
+	
+section {display:block;
+	 width:77%; 
+	 float:right;
+}
+
+#ender {position:relative;
+	float:right;
+	text-align:right;
+	font-family:'Stoke'; font-size:15px; color:#883322;
+	line-height:140%;
+	
+}
+
+h3 {font-family:stoke; color:#883322;
+
+}
+
+#listaMesas {line-height:200%;
+	     list-style-type:lower-roman;
+	     font-family:raleway; color:#000000;
+	     
+
+}
+
+section {display:block;
+	 width:77%; 
+	 float:right;
+}
+
+nav {display:block;
+     width:170px; 
+     float:left;
+     margin-right:10px;
+     font-weight:bold;
+     font-family:'Stoke';
+}
+
+
+#lista {line-height:200%;
+	color:#883322;
+	list-style-type:square;
+	
+}
+
+a {text-decoration:none;
+   color:#883322;
+   
+}
+a:visited{color:#552211}
+
+
+span {font-weight:bold; color:#CC0000;
+
+}
